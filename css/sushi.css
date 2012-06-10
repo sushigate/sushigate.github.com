@@ -6,4 +6,21 @@ body {
 
 p {
   color: white;
+  text-align: center;
+}
+
+.roll {
+  position: absolute;
+  background-color: #0d0e13;
+  width: 100%;
+  height: 100%;
+  top: 1000px;
+  filter:alpha(opacity=80);
+  opacity:0.8;
+  -moz-opacity:0.8;
+  -webkit-transition: all 30s linear;
+     -moz-transition: all 30s linear;
+      -ms-transition: all 30s linear;
+       -o-transition: all 30s linear;
+          transition: all 30s linear;
 }
