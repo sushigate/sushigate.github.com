@@ -14,7 +14,7 @@ a:link, a:visited {
   color: white;
 }
 
-.container {
+.dish {
   width: 100%;
   height: 2400px;
   background-color: #0d0e13;
@@ -28,4 +28,22 @@ a:link, a:visited {
   width: 100%;
   height: 100%;
   top: 800px;
+}
+
+.user {
+  display: inline-block;
+  *display: inline;
+  *zoom:1;
+  min-width: 110px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.fish {
+  display: inline-block;
+  *display: inline;
+  *zoom:1;
+  min-width: 110px;
+  text-align: left;
+  margin-left: 10px;
 }
