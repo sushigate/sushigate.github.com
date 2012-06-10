@@ -2,6 +2,7 @@ body {
   background: url("../img/sushigate.png") center no-repeat #0d0e13;
   background-attachment: fixed;
   background-position-y: center;
+  overflow: hidden;
 }
 
 p {
@@ -9,18 +10,32 @@ p {
   text-align: center;
 }
 
+a:link, a:visited {
+  color: white;
+}
+
+.container {
+  width: 100%;
+  height: 2400px;
+  background-color: #0d0e13;
+  filter:alpha(opacity=80);
+  -moz-opacity:0.8;
+       opacity:0.8;
+}
+
 .roll {
   position: absolute;
-  background-color: #0d0e13;
   width: 100%;
   height: 100%;
-  top: 1000px;
-  filter:alpha(opacity=80);
-  opacity:0.8;
-  -moz-opacity:0.8;
+  top: 800px;
   -webkit-transition: all 30s linear;
      -moz-transition: all 30s linear;
       -ms-transition: all 30s linear;
        -o-transition: all 30s linear;
           transition: all 30s linear;
+  -webkit-animation-iteration-count: infinite;
+     -moz-animation-iteration-count: infinite;
+      -ms-animation-iteration-count: infinite;
+       -o-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
