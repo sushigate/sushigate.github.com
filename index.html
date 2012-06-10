@@ -68,7 +68,8 @@
 </div>
 <script><!--
 $(function(){
-  $(".roll").css("top","-1000px");
+  var distance = $('.roll').offset();
+  $("html,body").animate({ scrollTop : distance.top + 580 }, 30000, "linear" );
 });
 --></script>
 </body>
