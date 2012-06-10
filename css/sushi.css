@@ -14,6 +14,15 @@ a:link, a:visited {
   color: white;
 }
 
+header p.contact {
+  position: fixed;
+  font-size: small;
+  top: 5px;
+  right: 15px;
+  text-align: right;
+  z-index: 5;
+}
+
 .dish {
   width: 100%;
   height: 2400px;
@@ -47,3 +56,5 @@ a:link, a:visited {
   text-align: left;
   margin-left: 10px;
 }
+
+
