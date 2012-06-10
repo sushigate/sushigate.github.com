@@ -1,0 +1,9 @@
+body {
+  background: url("../img/sushigate.png") center no-repeat #0d0e13;
+  background-attachment: fixed;
+  background-position-y: center;
+}
+
+p {
+  color: white;
+}
