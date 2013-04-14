@@ -25,7 +25,7 @@ header p.contact {
 
 .dish {
   width: 100%;
-  height: 2400px;
+  height: 5000px;
   background-color: #0d0e13;
   filter:alpha(opacity=80);
   -moz-opacity:0.8;
@@ -35,7 +35,7 @@ header p.contact {
 .roll {
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 5000px;
   top: 800px;
 }
 
